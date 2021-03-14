@@ -6,8 +6,7 @@
   "scripts": {
     "start": "webpack serve --mode=development",
     "clean": "rimraf build",
-    "build": "npm run clean && webpack --mode=production",
-    "deploy": "npm run build && firebase deploy"
+    "build": "npm run clean && webpack --mode=production"
   },
   "author": "Peet Janse van Vuuren",
   "license": "MIT",
