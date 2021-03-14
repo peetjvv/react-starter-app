@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+@import './vars.json';
+@import './setup.scss';
+
+#app {
+  width: 100vw;
+  height: 100vh;
+
+  .content {
+  }
+}
+
+// tablet
+@media screen and (min-width: $breakpoint-mobile + 1px) and (max-width: $breakpoint-tablet) {
+}
+
+// mobile
+@media screen and (max-width: $breakpoint-mobile) {
+  
+}
