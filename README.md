@@ -7,7 +7,7 @@ This is a simple Typescript starter React app without all the extra code that co
 ## Requirements
 
 - node 14 (newer versions might work, but are untested)
-- npm 6 or 7 (tested on npm 7)
+- npm 6 or 7 (only tested on npm 7)
 
 ## Getting started
 
