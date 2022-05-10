@@ -4,9 +4,10 @@
   "description": "Basic starter react app",
   "main": "index.tsx",
   "scripts": {
-    "start": "webpack serve --mode=development",
+    "start": "webpack serve --env development --mode=development --host 0.0.0.0",
     "clean": "rimraf build",
-    "build": "npm run clean && webpack --mode=production"
+    "webpack-build": "webpack --env production --mode=production progress",
+    "build": "npm run clean && npm run webpack-build"
   },
   "author": "Peet Janse van Vuuren",
   "license": "MIT",
@@ -39,6 +40,6 @@
     "typescript": "^4.6.4",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^4.9.0"
   }
 }
