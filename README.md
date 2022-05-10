@@ -2,12 +2,11 @@
 
 ## Description
 
-This is a simple Typescript starter React app without all the extra code that comes with `create-react-app`. Feel free to fork/copy and start up an app of your own. This app has the settings for webpack 5, images, favicon, typescript and sass already set up.
+This is a lightweight starter React app without all the extra code that comes with `create-react-app`. Feel free to fork/copy and start up an app of your own. This app has the settings for Webpack, images, favicon, Typescript and Sass already set up.
 
 ## Requirements
 
-- node 14 (newer versions might work, but are untested)
-- npm 6 or 7 (only tested on npm 7)
+- node 16 (older versions might also work, but proceed at your own peril)
 
 ## Getting started
 
