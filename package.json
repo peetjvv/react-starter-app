@@ -4,6 +4,7 @@
   "description": "Basic starter react app",
   "main": "index.tsx",
   "scripts": {
+    "test": "echo 'No tests'",
     "start": "webpack serve --env development --mode=development --host 0.0.0.0",
     "clean": "rimraf build",
     "webpack-build": "webpack --env production --mode=production",
@@ -11,6 +12,17 @@
   },
   "author": "Peet Janse van Vuuren",
   "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run test"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,json,scss,css,md}": [
+      "prettier --write"
+    ]
+  },
   "prettier": {
     "semi": true,
     "singleQuote": true,
@@ -30,7 +42,9 @@
     "file-loader": "^6.2.0",
     "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
+    "husky": "^4.3.8",
     "json-loader": "^0.5.7",
+    "lint-staged": "^10.5.4",
     "modernizr-loader": "^1.0.1",
     "node-sass-json-importer": "^4.3.0",
     "prettier": "^2.6.2",
