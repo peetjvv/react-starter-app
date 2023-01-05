@@ -6,7 +6,7 @@ This is a lightweight starter React app without all the extra code that comes wi
 
 ## Requirements
 
-- node 16 (older versions might also work, but proceed at your own peril)
+- node 16 (v14 might also work, but proceed at your own peril)
 
 ## Getting started
 
