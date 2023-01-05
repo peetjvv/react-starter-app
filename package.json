@@ -9,7 +9,7 @@
     "clean": "rimraf build",
     "webpack-build": "webpack --env production --mode=production",
     "build": "npm run clean && npm run webpack-build",
-    "eslint": "eslint src",
+    "eslint": "eslint src --color --cache",
     "eslint:fix": "npm run lint -- --fix"
   },
   "author": "Peet Janse van Vuuren",

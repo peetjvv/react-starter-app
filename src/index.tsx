@@ -8,4 +8,5 @@ const App: React.FC = () => {
 
 const container = document.getElementById('app');
 const root = createRoot(container!); // eslint-disable-line @typescript-eslint/no-non-null-assertion
+const a = container!;
 root.render(<App />);

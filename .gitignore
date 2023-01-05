@@ -4,3 +4,6 @@ build
 # firebase
 .firebase
 firebase-debug.log
+
+# linting
+.eslintcache
