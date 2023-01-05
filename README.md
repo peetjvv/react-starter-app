@@ -2,18 +2,19 @@
 
 ## Description
 
-This is a lightweight starter React app without all the extra code that comes with `create-react-app`. Feel free to fork/copy and start up an app of your own. This app has the following set up and ready to use out of the box:
+This is a lightweight starter React app without all the extra code that comes with `create-react-app`. I use this to spin up my personal projects. Feel free to fork/copy and start up an app of your own. This app has the following set up and ready to use out of the box:
 
 - Webpack
 - adding custom assets like images and favicon
 - Typescript ready
 - Sass
-- linting with ESLint (recommend adding the ESLint extension in VS Code)
+- linting with Prettier and ESLint (recommend adding the ESLint extension in VS Code)
 - unit testing with Jest and React Testing Library
 
 ## Requirements
 
-- node 16 (v14 might also work, but proceed at your own peril)
+- node 16 (v18 might also work, but is untested)
+- npm 8
 
 ## Getting started
 
