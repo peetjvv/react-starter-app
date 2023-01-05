@@ -7,3 +7,6 @@ firebase-debug.log
 
 # linting
 .eslintcache
+
+# jest test coverage
+coverage
