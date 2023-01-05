@@ -2,7 +2,14 @@
 
 ## Description
 
-This is a lightweight starter React app without all the extra code that comes with `create-react-app`. Feel free to fork/copy and start up an app of your own. This app has the settings for Webpack, images, favicon, Typescript and Sass already set up.
+This is a lightweight starter React app without all the extra code that comes with `create-react-app`. Feel free to fork/copy and start up an app of your own. This app has the following set up and ready to use out of the box:
+
+- Webpack
+- adding custom assets like images and favicon
+- Typescript ready
+- Sass
+- linting with ESLint (recommend adding the ESLint extension in VS Code)
+- unit testing with Jest and React Testing Library
 
 ## Requirements
 
