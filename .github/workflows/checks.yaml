@@ -23,15 +23,15 @@ jobs:
       - run: npm ci
       - run: npm test
 
-  can-build-and-serve:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: 'npm'
-          cache-dependency-path: ${{ env.pathToPackageLockFile }}
-      - run: npm ci
-      - run: npm run serve
+  # can-build-and-serve: # TODO: replace with e2e and run detached
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v3
+  #     - name: Set up Node.js
+  #       uses: actions/setup-node@v3
+  #       with:
+  #         node-version: 18
+  #         cache: 'npm'
+  #         cache-dependency-path: ${{ env.pathToPackageLockFile }}
+  #     - run: npm ci
+  #     - run: npm run serve
