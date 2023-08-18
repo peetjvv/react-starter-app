@@ -1,5 +1,7 @@
 # React Starter App
 
+[![Checks](https://github.com/peetjvv/react-starter-app/actions/workflows/checks.yaml/badge.svg)](https://github.com/peetjvv/react-starter-app/actions/workflows/checks.yaml)
+
 ## Description
 
 This is a lightweight starter React app without all the extra code that comes with `create-react-app`. I use this to spin up my personal projects. Feel free to fork/copy and start up an app of your own. This app has the following set up and ready to use out of the box:
