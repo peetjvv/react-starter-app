@@ -4,6 +4,7 @@
   "description": "Basic starter react app",
   "main": "index.tsx",
   "scripts": {
+    "prepare": "husky install",
     "test": "jest --coverage",
     "start": "webpack serve --env development --mode=development --host 0.0.0.0",
     "clean": "rimraf build",
@@ -12,13 +13,14 @@
     "eslint": "eslint src --color --cache",
     "eslint:fix": "npm run lint -- --fix",
     "serve": "npm run build && http-server build --proxy http://localhost:8080?",
-    "prepare": "husky install"
+    "prettier": "prettier --check *.{js,ts,tsx,json,scss,css,md}",
+    "prettier:write": "prettier --write *.{js,ts,tsx,json,scss,css,md}"
   },
   "author": "Peet Janse van Vuuren",
   "license": "MIT",
   "lint-staged": {
     "*.{js,ts,tsx,json,scss,css,md}": [
-      "prettier --write"
+      "npm run prettier:write"
     ]
   },
   "prettier": {
