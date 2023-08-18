@@ -11,16 +11,11 @@
     "build": "npm run clean && npm run webpack-build",
     "eslint": "eslint src --color --cache",
     "eslint:fix": "npm run lint -- --fix",
-    "serve": "npm run build && http-server build --proxy http://localhost:8080?"
+    "serve": "npm run build && http-server build --proxy http://localhost:8080?",
+    "prepare": "husky install"
   },
   "author": "Peet Janse van Vuuren",
   "license": "MIT",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run test"
-    }
-  },
   "lint-staged": {
     "*.{js,ts,tsx,json,scss,css,md}": [
       "prettier --write"
@@ -63,7 +58,7 @@
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.3",
     "http-server": "^14.1.1",
-    "husky": "^4.3.8",
+    "husky": "^8.0.0",
     "jest": "^29.6.2",
     "jest-environment-jsdom": "^29.6.2",
     "json-loader": "^0.5.7",
