@@ -12,7 +12,8 @@
     "build": "npm run clean && npm run webpack-build",
     "eslint": "eslint src --color --cache",
     "eslint:fix": "npm run eslint -- --fix",
-    "serve": "npm run build && http-server build --proxy http://localhost:8080?",
+    "serve": "npm run build && npm run serve:no-build",
+    "serve:no-build": "http-server build --proxy http://localhost:8080?"
     "prettier": "prettier --check *.{js,ts,tsx,json,scss,css,md}",
     "prettier:write": "prettier --write *.{js,ts,tsx,json,scss,css,md}"
   },
