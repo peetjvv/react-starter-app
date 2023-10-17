@@ -20,7 +20,7 @@
   "license": "MIT",
   "lint-staged": {
     "*.{js,ts,tsx,json,scss,css,md}": [
-      "npm run prettier:write"
+      "prettier --write"
     ]
   },
   "prettier": {
